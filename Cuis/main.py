@@ -9,7 +9,7 @@ def iniciar(vez):
 
     notification = Notify(default_notification_application_name ="ForYou")
     notification.title = vez
-    notification.message = "Toma agua, cuis"
+    notification.message = "silencio cuis"
 
     audio="awa.wav"
     icono="agua.ico"
