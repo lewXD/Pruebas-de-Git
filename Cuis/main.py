@@ -18,7 +18,8 @@ def iniciar(vez):
 
     notification.icon = path.join(direccion, icono)
     notification.audio = path.join(direccion, audio)
-    notification.send() 
+    notification.send()
+    print("Hello world") 
 
 if now.hour==8:
     iniciar("1/8")
